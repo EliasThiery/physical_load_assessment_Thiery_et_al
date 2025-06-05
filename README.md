@@ -1,5 +1,5 @@
 # Physical Load Assessment
-Physical Load Assessment methodologies used for the study titled "Towards automated ergonomic assessment using wearable sensors and surveys" by Thiery, E. et al. The `data` folder contains all the raw data produced during the experiments, which can be used to reproduce the results of the paper by means of the scripts inside the `code` folder.
+Physical Load Assessment methodologies used for the study titled "Towards automated ergonomic assessment using wearable sensors and surveys" by Thiery, E. et al.
 
 ## 1. Requirements:
 
