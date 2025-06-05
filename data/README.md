@@ -33,25 +33,26 @@ Email: ilias.el.makrini@vub.be
 # DATA & FILE OVERVIEW
 
 ## File List:
+```
 palletizing: folder containing data from the palletizing experiment
-	∟sess1: folder containing data from the first and only session
-		∟partX: folder containing data from participant X
+	sess1: folder containing data from the first and only session
+		partX: folder containing data from participant X
 			sess1_partX - AutoDeLoad_palletizing.csv: file containing all load events detected during the experiment
 			sess1_partX - AutoDePos_palletizing.csv: file containing all postures detected during the experiment
-			sess1_partX_DetectedMarkers (HP-EliteBook-850-G8-Notebook-PC)_marker_id.csv: file containing all markers 					detected by the smart glasses during the experiment
-			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_ergo_feat: file containing raw joint angle and position data from IMUs 				related to ergonomic features (used to determine posture)
+			sess1_partX_DetectedMarkers (HP-EliteBook-850-G8-Notebook-PC)_marker_id.csv: file containing all markers detected by the smart glasses during the experiment
+			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_ergo_feat: file containing raw joint angle and position data from IMUs related to ergonomic features (used to determine posture)
 			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_joint_ang: file containing all raw joint angle data from IMUs
-			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_pos: file containing all body segment position data from IMUs		
+			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_pos: file containing all body segment position data from IMUs
 			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_rot: file containing all body segment orientation data from IMUs
 			*FILE_NAME*.json: metadata for each data stream
 
 proovit: folder containing data from the ProoVit assembly experiment
-	∟sess1: folder containing data from the first and only session
-		∟partX: folder containing data from participant X
+	sess1: folder containing data from the first and only session
+		partX: folder containing data from participant X
 			sess1_partX - AutoDeLoad_proovit.csv: file containing all load events detected during the experiment
 			sess1_partX - AutoDePos_proovit.csv: file containing all postures detected during the experiment
-			sess1_partX_DetectedMarkers (HP-EliteBook-850-G8-Notebook-PC)_marker_id.csv: file containing all markers 					detected by the smart glasses during the experiment
-			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_ergo_feat: file containing raw joint angle and position data from IMUs 				related to ergonomic features (used to determine posture)
+			sess1_partX_DetectedMarkers (HP-EliteBook-850-G8-Notebook-PC)_marker_id.csv: file containing all markers detected by the smart glasses during the experiment
+			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_ergo_feat: file containing raw joint angle and position data from IMUs related to ergonomic features (used to determine posture)
 			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_joint_ang: file containing all raw joint angle data from IMUs
 			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_pos: file containing all body segment position data from IMUs		
 			sess1_partX_Xsens-Awinda (AugmentXVR)_hum_rot: file containing all body segment orientation data from IMUs
@@ -63,7 +64,8 @@ Wellficiency_baseline_survey.csv: csv file containing the results of the baselin
 
 Wellficiency_NASA_TLX.csv: csv file containing the results of the NASA TLX survey for all participants, for both experiments.
 
-README.txt: this README file		
+README.md: this README file		
+```
 
 * Relationship between files: The participant name is consistent throughout all files, i.e. partX in proovit is the same participant as partX in palletizing
 
@@ -82,7 +84,7 @@ The raw IMU and smart glasses data was processed using the Python scripts descri
 
 ## Instrument- or software-specific information needed to interpret the data:
 raw data collected using Xsens Awinda IMUs and Xsens MVN 2024.0, and Project Aria smart glasses and Aria companion app.
-data processed using physical load Python scripts (INSERT GITHUB LINK HERE). These require the following Python packages: sys, datetime, bisect, math, json, os, pandas, numpy, matplotlib, collections, pylsl, scipy, warnings, cv2, copy, requests, pytz
+data processed using physical load Python scripts ([https://github.com/EliasThiery/physical_load_assessment_Thiery_et_al/](https://github.com/EliasThiery/physical_load_assessment_Thiery_et_al/)). These require the following Python packages: sys, datetime, bisect, math, json, os, pandas, numpy, matplotlib, collections, pylsl, scipy, warnings, cv2, copy, requests, pytz
 
 
 The EAWS scores were calculated according to the EAWS procedure described in the following paper:
