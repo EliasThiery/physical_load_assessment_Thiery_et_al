@@ -1,6 +1,8 @@
 # Physical Load Assessment
 Physical Load Assessment methodologies used for the study titled "Towards automated ergonomic assessment using wearable sensors and surveys" by Thiery, E. et al.
 
+[![DOI](https://zenodo.org/badge/996659273.svg)](https://doi.org/10.5281/zenodo.15674544)
+
 ## 1. Requirements:
 
 ### Hardware:
